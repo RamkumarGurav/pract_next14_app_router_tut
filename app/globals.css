@@ -6,22 +6,38 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+/* //-- PAGINATION COMPONENT */
+
+.pagination-shell {
+  @apply flex justify-center;
+}
+.pagination-container {
+  /* @apply border border-solid border-gray-400 rounded-lg overflow-hidden */
+  @apply flex flex-wrap  gap-1  rounded-md;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.pageBtn {
+  /* @apply bg-white text-gray-900 w-[30px] px-1 py-1 border-l border-gray-500 text-sm mx-1; */
+  @apply bg-white border border-gray-400 shadow-md rounded  text-gray-900 
+  min-w-[25px] px-1 text-sm  hover:bg-blue-500 hover:border-blue-500 hover:text-white transition duration-300 ease-in;
+}
+
+.activePageBtn {
+  @apply bg-blue-700 text-white border-blue-700;
+}
+
+.prev-next-btn {
+  /* @apply text-gray-900 p-3 border-l border-gray-500; */
+  @apply flex items-center  justify-center bg-white text-gray-900   px-1  text-lg border border-solid border-gray-400  active:bg-blue-700 active:border-blue-700 active:text-white transition duration-300 ease-in;
+}
+
+.first-page-btn {
+  @apply px-1 border border-gray-400 shadow-md rounded-s-lg bg-white active:bg-blue-700 active:border-blue-700 active:text-white transition duration-300 ease-in;
+}
+
+.last-page-btn {
+  @apply px-1 border border-gray-400 shadow-md rounded-e-lg bg-white active:bg-blue-700 active:border-blue-800 active:text-white transition duration-300 ease-in;
 }

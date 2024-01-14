@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/(default_site)/ssr/loaderrorsuspense/case1/error.tsx", "app/(default_site)/ssr/jspract/page.jsx"],
   "exclude": ["node_modules"]
 }
