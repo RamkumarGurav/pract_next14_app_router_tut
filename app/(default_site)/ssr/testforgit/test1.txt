@@ -4,3 +4,4 @@ line 3 from test2
 line 4 from test2
 line 5 from test2
 line 8 from test2
+line 9 from test2
