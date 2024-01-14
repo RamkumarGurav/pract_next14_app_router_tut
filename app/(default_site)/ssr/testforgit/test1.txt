@@ -8,4 +8,5 @@ line 7 from main
 line 8 from test2
 line 9 from test2
 line 10 from main
+line 11 from main
 
