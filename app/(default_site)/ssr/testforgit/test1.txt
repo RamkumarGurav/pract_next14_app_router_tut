@@ -2,3 +2,4 @@ test1
 added some data and amending prev commit
 line 3 from test2
 line 4 from test2
+line 5 from test2
