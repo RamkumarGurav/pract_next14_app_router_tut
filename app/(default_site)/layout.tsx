@@ -9,8 +9,8 @@ export default function WebsiteLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div>
-      <header className="text-xl font-bold p-4 text-white text-center bg-black">
+    <div className="">
+      <header className="w-full text-xl font-bold p-4 text-white text-center bg-black z-[999]">
         This is the header for default site
       </header>
       <main>{children}</main>

@@ -22,7 +22,8 @@ export default function RootLayout({
   }, []);
 
   return (
-    <html lang="en">
+    //add "scroll-smooth class "
+    <html lang="en" className="scroll-smooth">
       <body>{children}</body>
     </html>
   );
