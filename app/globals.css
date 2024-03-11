@@ -9,6 +9,94 @@
   box-sizing: border-box;
 }
 
+/* //{--------------BUTTONS-------------- */
+.btn-focus {
+  @apply focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800;
+}
+
+.btn {
+  @apply text-white text-center  font-medium rounded text-sm px-[13.5px] py-[6px]   focus:outline-none;
+}
+
+.btn-xs {
+  @apply text-xs  px-[9px] py-[4px];
+}
+.btn-sm {
+  @apply text-sm  px-[9px] py-[4.5px];
+}
+
+.btn-lg {
+  @apply text-base px-5 py-3;
+}
+.btn-xl {
+  @apply text-base px-6 py-3.5;
+}
+
+.btn-square {
+  @apply rounded-none;
+}
+.btn-pill {
+  @apply rounded-full;
+}
+
+.btn-primary {
+  @apply bg-blue-700 hover:bg-blue-800 dark:bg-blue-600 dark:hover:bg-blue-700;
+}
+.btn-secondary {
+  @apply bg-gray-600 hover:bg-gray-800 dark:bg-gray-600 dark:hover:bg-gray-700;
+}
+.btn-info {
+  @apply bg-[#17a2b8] hover:bg-[#429dac];
+}
+.btn-danger {
+  @apply bg-red-700 hover:bg-red-800 dark:bg-red-600 dark:hover:bg-red-700;
+}
+.btn-success {
+  @apply bg-green-700 hover:bg-green-800 dark:bg-green-600 dark:hover:bg-green-700;
+}
+.btn-warning {
+  @apply text-black bg-yellow-500 hover:bg-yellow-600 dark:bg-yellow-600 dark:hover:bg-yellow-700;
+}
+.btn-purple {
+  @apply bg-purple-700 hover:bg-purple-800 dark:bg-purple-600 dark:hover:bg-purple-700;
+}
+.btn-dark {
+  @apply bg-gray-800 hover:bg-gray-900 dark:bg-gray-600 dark:hover:bg-gray-700;
+}
+.btn-light {
+  @apply text-black  bg-white border border-gray-300 hover:bg-gray-100 dark:bg-gray-100 dark:hover:bg-gray-200;
+}
+
+.btn-primary-outline {
+  @apply text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800  dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800;
+}
+.btn-secondary-outline {
+  @apply text-gray-900 bg-white border border-gray-900 hover:text-white hover:bg-gray-900;
+}
+.btn-info-outline {
+  @apply text-[#17a2b8] bg-white border border-[#17a2b8] hover:text-white hover:bg-[#17a2b8];
+}
+.btn-danger-outline {
+  @apply text-red-700 bg-white border border-red-700 hover:bg-red-700 hover:text-white;
+}
+.btn-success-outline {
+  @apply text-green-700 bg-white border border-green-700 hover:bg-green-700 hover:text-white;
+}
+.btn-warning-outline {
+  @apply text-yellow-500 bg-white border border-yellow-500 hover:bg-yellow-500 hover:text-black;
+}
+.btn-purple-outline {
+  @apply text-purple-700 bg-white border border-purple-600 hover:bg-purple-700 hover:text-white;
+}
+.btn-dark-outline {
+  @apply text-gray-900 bg-white border border-gray-900 hover:bg-gray-900 hover:text-white;
+}
+.btn-light-outline {
+  @apply text-white bg-gray-900 border border-gray-900 hover:text-gray-900 hover:bg-white;
+}
+
+/*  //--------------BUTTONS--------------} */
+
 /* //-- PAGINATION COMPONENT */
 
 .pagination-shell {
