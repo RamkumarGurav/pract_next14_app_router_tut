@@ -6,6 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+
   box-sizing: border-box;
 }
 
@@ -199,3 +200,24 @@
     font-size: 16px;
   }
 }
+
+/* //{--------------SWIPER-------------- */
+
+.swiper-pagination-bullet {
+  background-color: #000000 !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: rgb(228, 228, 228) !important;
+}
+
+.swiper-button-prev {
+  color: #000000 !important;
+  background-color: #dadadabe !important;
+  font-size: 10px !important;
+}
+.swiper-button-next {
+  color: #000000 !important;
+  background-color: #dadadabe !important;
+  padding: 10px !important;
+}
+/* //--------------------------------------------------}-> */
