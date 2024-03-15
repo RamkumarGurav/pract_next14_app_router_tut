@@ -1,0 +1,8 @@
+.swiper-button-next {
+  display: none !important;
+  opacity: 0 !important;
+}
+.swiper-button-prev {
+  display: none !important;
+  opacity: 0 !important;
+}
