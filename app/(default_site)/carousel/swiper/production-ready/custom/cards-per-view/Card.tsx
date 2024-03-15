@@ -9,7 +9,7 @@ export default function Card({
     // Main container for the card
     <div
       id="card-shell"
-      className="@container w-full  rounded border border-gray-500  shadow-lg"
+      className="@container w-full  rounded border border-gray-500  shadow-lg z-[1]"
     >
       {/* Container for the card's content */}
       <div id="card-container" className="  w-full h-full @md:flex ">
