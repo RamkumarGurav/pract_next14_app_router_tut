@@ -8,7 +8,7 @@ export default function PageName() {
       {/* //if dont give overflow-hidden then u wil get horizontal scroll bar */}
       <div
         id="movingNotificationContainer"
-        className="overflow-hidden bg-yellow-400 p-1   text-black font-semibold w-full h-[70px] flex items-center"
+        className="overflow-hidden bg-[#F8F4E1] p-1   text-black font-semibold w-full h-[35.5px] flex items-center"
       >
         <AnimatePresence>
           <motion.div

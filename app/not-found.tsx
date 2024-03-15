@@ -1,3 +1,6 @@
+import Link from "next/link";
+import { Poppins } from "next/font/google";
+const font = Poppins({ weight: "400", subsets: ["latin"] });
 const NotFoundPage = () => {
   return (
     <>
@@ -8,6 +11,12 @@ const NotFoundPage = () => {
           <p className="text-gray-500">
             Sorry, the page you are looking for does not exist.
           </p>
+          <Link
+            href="/"
+            className={`btn btn-link btn-primary btn-pill m-4   uppercase  ${font.className}`}
+          >
+            Go home
+          </Link>
         </div>
       </div>
     </>

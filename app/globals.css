@@ -15,7 +15,11 @@
 }
 
 .btn {
-  @apply text-white text-center  font-medium rounded text-sm px-[13.5px] py-[6px]   focus:outline-none;
+  @apply text-white text-center  font-medium rounded text-sm px-[13.5px] py-[6px] font-sans  focus:outline-none;
+}
+
+.btn-link {
+  @apply inline-block;
 }
 
 .btn-xs {
