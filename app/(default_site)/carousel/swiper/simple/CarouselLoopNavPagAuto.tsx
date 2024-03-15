@@ -11,18 +11,23 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "./styles";
 
 export default function PageName() {
   return (
     <div>
       <Swiper
+        slidesPerView={1}
+        spaceBetween={30}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
         }}
+        loop={true}
+        pagination={{
+          clickable: true,
+        }}
         navigation={true}
-        modules={[Navigation, Pagination, Autoplay]}
+        modules={[Pagination, Navigation, Autoplay]}
         className="mySwiper"
       >
         <SwiperSlide>

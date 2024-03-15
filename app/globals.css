@@ -201,23 +201,14 @@
   }
 }
 
-/* //{--------------SWIPER-------------- */
-
-.swiper-pagination-bullet {
-  background-color: #000000 !important;
-}
-.swiper-pagination-bullet-active {
-  background-color: rgb(228, 228, 228) !important;
-}
-
-.swiper-button-prev {
-  color: #000000 !important;
-  background-color: #dadadabe !important;
-  font-size: 10px !important;
-}
+/* //{------------SWIPER---------------- */
 .swiper-button-next {
-  color: #000000 !important;
-  background-color: #dadadabe !important;
-  padding: 10px !important;
+  display: none !important;
+  opacity: 0 !important;
 }
-/* //--------------------------------------------------}-> */
+.swiper-button-prev {
+  display: none !important;
+  opacity: 0 !important;
+}
+
+/* //--------------------------------------------------} */
