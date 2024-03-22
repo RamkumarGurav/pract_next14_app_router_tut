@@ -12,7 +12,7 @@ export default function PageName() {
       >
         <AnimatePresence>
           <motion.div
-            key="notification"
+            key="not|ification"
             initial={{ x: "99vw", opacity: 1 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{

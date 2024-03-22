@@ -19,6 +19,71 @@
     rgb(214, 214, 214) 0px 0px 0px 1px;
 }
 
+/* //-------------------BG AND TEXT COLOR-------------------------------} */
+.bg-primary {
+  @apply bg-blue-800;
+}
+
+.bg-secondary {
+  @apply bg-gray-600;
+}
+
+.bg-danger {
+  @apply bg-red-700;
+}
+.bg-warning {
+  @apply bg-yellow-500;
+}
+.bg-success {
+  @apply bg-green-700;
+}
+
+.bg-info {
+  @apply bg-[#17a2b8];
+}
+.bg-dark {
+  @apply bg-gray-800;
+}
+.bg-light {
+  @apply bg-white;
+}
+
+.bg-purple {
+  @apply bg-purple-700;
+}
+
+.text-primary {
+  @apply text-blue-800;
+}
+
+.text-secondary {
+  @apply text-gray-600;
+}
+
+.text-danger {
+  @apply text-red-700;
+}
+.text-warning {
+  @apply text-yellow-500;
+}
+.text-success {
+  @apply text-green-700;
+}
+
+.text-info {
+  @apply text-[#17a2b8];
+}
+.text-dark {
+  @apply text-gray-950;
+}
+.text-light {
+  @apply text-white;
+}
+
+.text-purple {
+  @apply text-purple-700;
+}
+
 /* //--------------------------------------------------} */
 
 /* //{--------------BUTTONS-------------- */
@@ -105,7 +170,7 @@
   @apply text-purple-700 bg-white border border-purple-600 hover:bg-purple-700 hover:text-white;
 }
 .btn-dark-outline {
-  @apply text-gray-900 bg-white border border-gray-900 hover:bg-gray-900 hover:text-white;
+  @apply text-gray-900 bg-white border border-gray-950 hover:bg-gray-900 hover:text-white;
 }
 .btn-light-outline {
   @apply text-white bg-gray-900 border border-gray-900 hover:text-gray-900 hover:bg-white;
